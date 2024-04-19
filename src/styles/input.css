@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply text-bodyCopy font-Bai_Jamjuree overflow-x-hidden;
+}
+
+.btn-ios {
+  @apply bg-primaryStrongCyan rounded-full px-8 py-4 text-sm text-white duration-150  ease-in-out md:hover:translate-y-1 md:hover:shadow-2xl;
+}
+
+.btn-mac {
+  @apply bg-primaryLightBlue rounded-full px-8 py-4 text-sm text-white duration-150 ease-in-out md:hover:translate-y-1 md:hover:shadow-2xl;
+}
+
+.articles {
+  @apply m-auto flex flex-col items-center justify-center gap-8 text-center md:my-12 md:max-w-2xl md:gap-6;
+}
